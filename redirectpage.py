@@ -37,23 +37,25 @@ st.write('Tailored Suggestions, Crafted from Your Preferences')
 st.write("#")
 st.write("#")
 left_co, cent_co,last_co = st.columns([0.33,0.33,0.33])
+left_co, cent_co,last_co = st.columns([0.33,0.33,0.33])
 with left_co:
-    
-
-        if st.button("PickFlicks : Unveil Cinematic Choices On Demand"):
-            webbrowser.open('https://pickflicks.streamlit.app/')
+        st.link_button("PickFlicks : Unveil Cinematic Choices On Demand", "https://pickflicks.streamlit.app/")
+        # if st.button("PickFlicks : Unveil Cinematic Choices On Demand"):
+        #     webbrowser.open('https://pickflicks.streamlit.app/')
 
     ##st.write("#")
     #st.write("#")
 with cent_co:
-    if st.button("PlotPilot : Navigate Stories, Delve into Genres"):
-        webbrowser.open('https://plotpilot.streamlit.app/')
+    st.link_button("PlotPilot : Navigate Stories, Delve into Genres", "https://plotpilot.streamlit.app/")
+    # if st.button("PlotPilot : Navigate Stories, Delve into Genres"):
+    #     webbrowser.open('https://plotpilot.streamlit.app/')
 
     #st.write("#")
     #st.write("#")
 with last_co:
-    if st.button("RythMix : Find Songs, Explore Artists, Discover Your Groove"):
-        webbrowser.open('https://rythmix.streamlit.app/')
+    st.link_button("RythMix : Find Songs, Explore Artists, Discover Your Groove", "https://rythmix.streamlit.app/")
+    # if st.button("RythMix : Find Songs, Explore Artists, Discover Your Groove"):
+    #     webbrowser.open('https://rythmix.streamlit.app/')
 
 
 st.sidebar.markdown(":orange[App made by] :gray[-] :orange[[Pranjal Asthana](https://github.com/PranjalAsthana)]")
