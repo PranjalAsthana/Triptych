@@ -41,19 +41,19 @@ with left_co:
     
 
         if st.button("PickFlicks : Unveil Cinematic Choices On Demand"):
-            webbrowser.open_new_tab('https://pickflicks.streamlit.app/')
+            webbrowser.open('https://pickflicks.streamlit.app/')
 
     ##st.write("#")
     #st.write("#")
 with cent_co:
     if st.button("PlotPilot : Navigate Stories, Delve into Genres"):
-        webbrowser.open_new_tab('https://plotpilot.streamlit.app/')
+        webbrowser.open('https://plotpilot.streamlit.app/')
 
     #st.write("#")
     #st.write("#")
 with last_co:
     if st.button("RythMix : Find Songs, Explore Artists, Discover Your Groove"):
-        webbrowser.open_new_tab('https://rythmix.streamlit.app/')
+        webbrowser.open('https://rythmix.streamlit.app/')
 
 
 st.sidebar.markdown(":orange[App made by] :gray[-] :orange[[Pranjal Asthana](https://github.com/PranjalAsthana)]")
